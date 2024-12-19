@@ -1,0 +1,64 @@
+#container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+#areatexto{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2f698b;
+    color: #6bce90;
+}
+#areatexto #titulocad{
+    font-size: 90px;
+}
+
+#areaformcad{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formcad{
+    display: flex;
+    flex-direction: column;
+}
+#formcad label{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    margin: 2%;
+    height: 40px;
+    
+}
+.areasinput{
+    border-bottom: solid 0.1px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.areasinput::placeholder{
+    color:white;
+}
+.areasinput:hover{
+    border-bottom: solid 0.1px #76e69f;
+}
+.enviarinput{
+    background:#6bce90;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.enviarinput:hover{
+    background: #76e69f;
+}

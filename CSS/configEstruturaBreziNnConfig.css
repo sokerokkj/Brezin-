@@ -1,0 +1,61 @@
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+#previaPerfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+#previaPerfil img{
+    width: 100px;        
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: black solid 2px;
+    
+}
+#descriçaoPerfil h2 {
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+}
+#descriçaoPerfil a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.botao {
+    background-color: #213a75;
+    color: white;
+    padding: 10px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+}
+.botao:hover {
+    background-color: #2d4e9c;
+}
+#areausuario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #84e488;
+    margin: 0 auto;
+    padding: 10%;
+    border-radius: 20px;    
+    }

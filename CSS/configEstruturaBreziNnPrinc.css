@@ -1,0 +1,75 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+}
+#AnuncioProduto{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    background-image:url(images.jpg) ;
+}
+#areatextoAnuncio{
+position: absolute;
+bottom: 0;
+background: rgba(0, 0, 0, 0.166);
+width: 100%;
+text-align: center;
+}
+
+/*------------------------------------------------*/
+#areaprodutos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.produtoBreziNn {
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Esconde partes que saem do container */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s; /* Efeito ao passar o mouse */
+    width: 170px; /* Largura máxima */
+    height: 260px; /* Altura máxima */
+    margin: 20px; /* Margem externa */
+    
+}
+.produtoBreziNn a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.produtoBreziNn:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
+}
+
+.produtoBreziNn img {
+    width: 100%; /* Imagem ocupa toda a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    height: 70%; /* Altura máxima da imagem */
+}
+
+.textoprodutoBreziNn {
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    flex-grow: 1; /* Faz o texto ocupar o espaço restante */
+    background: #84e488;
+
+}
+
+.textoprodutoBreziNn h3 {
+    margin: 0 0 5px; /* Margem inferior */
+    font-size: 1.2em; /* Tamanho da fonte do título */
+    color: black; /* Cor do texto */
+}
+
+.textoprodutoBreziNn p {
+    color: rgb(20, 20, 20); /* Cor do texto da descrição */
+    font-size: 0.8em; /* Tamanho da fonte da descrição */
+}
+
+    
+
