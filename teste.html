@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        #container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        #previaPerfil {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #previaPerfil img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        #descriçaoPerfil h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        #descriçaoPerfil a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        #botoes {
+            display: flex;
+            flex-direction: column;
+        }
+        .botao {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .botao:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <div id="previaPerfil">
+        <img src="CSS/file.jpg" alt="Perfil">
+        <div id="descriçaoPerfil">
+            <h2>Josue Miguel</h2>
+            <a>Logado</a>
+        </div>
+    </div>
+
+    <div id="botoes">
+        <button class="botao">Alterar Senha</button>
+        <button class="botao">Editar Perfil</button>
+        <button class="botao">Notificações</button>
+        <button class="botao">Sair</button>
+    </div>
+</div>
+
+</body>
+</html>
